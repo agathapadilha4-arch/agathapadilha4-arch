@@ -14,5 +14,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![Snake light](https://raw.githubusercontent.com/agathapadilha4-arch/github-contribution-grid-snake/output/dist/github-snake.svg#gh-light-mode-only)
-![Snake dark](https://raw.githubusercontent.com/agathapadilha4-arch/github-contribution-grid-snake/output/dist/github-snake-dark.svg#gh-dark-mode-only)
+![Snake light](https://raw.githubusercontent.com/leobravoe/github-contribution-grid-snake/output/dist/github-snake.svg#gh-light-mode-only)
+![Snake dark](https://raw.githubusercontent.com/leobravoe/github-contribution-grid-snake/output/dist/github-snake-dark.svg#gh-dark-mode-only)

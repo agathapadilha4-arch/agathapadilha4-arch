@@ -1,0 +1,28 @@
+name: Generate Contribution Snake
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # roda todo dia à meia-noite UTC
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate contribution snake
+        uses: Platane/snk@v3.3.0
+        with:
+          username: agathapadilha4-arch
+          format: svg # svg|gif
+          output: output/github-contribution-grid-snake.svg
+          # colors: '#EBEDF0,#9BE9A8,#40C463,#30A14E,#216E39' # opcional
+
+      - name: Commit & push output
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Generated contribution snake
+          file_pattern: output/*
